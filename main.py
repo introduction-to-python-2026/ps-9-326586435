@@ -1,7 +1,7 @@
 import pandas as pd
 df = pd.read_csv('/content/parkinsons.csv')
 df = df.dropna()
-df = head()
+df.head()
 
 x = df[['PPE', 'HNR']]
 y = df['status']
